@@ -5,6 +5,7 @@
 #include "StateManager.hpp"
 #include "City.hpp"
 #include "GameState.hpp"
+#include <queue>
 
 using namespace std;
 using namespace sf;
@@ -19,6 +20,7 @@ public:
     Character& getCharacter() override;
     Tiling& getTile() override;
     bool door();
+    void cleanUp();
 private:
     int flag;
     bool hasTransitioned;
@@ -33,6 +35,15 @@ private:
     Bounds bound;
     Texture ctext;
     Music soundtrack;
+    Sprite trash1;
+    Sprite trash2;
+    Sprite trash3;
+    Sprite trash4;
+    Sprite trash5;
+    queue <Sprite> trashbag;
+    Texture prompt;
+    Sprite promptBox;
+    bool displayPrompt;
 };
 
 
