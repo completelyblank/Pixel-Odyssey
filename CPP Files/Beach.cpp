@@ -1,6 +1,6 @@
 #include "Beach.hpp"
 
-Beach::Beach(StateManager& sm, View& view) : stateManager(sm), view(view), hasTransitioned(false), interval(seconds(1.2f)), flag(2) {
+Beach::Beach(StateManager& sm, View& view) : stateManager(sm), view(view), hasTransitioned(false), interval(seconds(1.2f)), flag(2), displayPrompt(false) {
     character.setTexture("Assets/Characters/charright1.png");
     character.setPosition(855.f, 520.f);
     tile.setTexture("Assets/Characters/grass.jpg");
@@ -74,6 +74,10 @@ void Beach::render(RenderWindow& window, Clock& track) {
     background.setPosition(100.f, 0.f);
     background.draw(window);
     character.draw(window);
+    if (displayPrompt)
+    {
+        window.draw(promptBox);
+    }
 }
 
 Character& Beach::getCharacter() {
@@ -82,4 +86,55 @@ Character& Beach::getCharacter() {
 
 Tiling& Beach::getTile() {
     return tile;
+}
+
+void Beach::cleanUp()
+{
+    if (character.character.getGlobalBounds().intersects(trash1.getGlobalBounds()))
+    {
+        displayPrompt = true;
+        if (Keyboard::isKeyPressed(Keyboard::A))
+        {
+            trashbag.push(trash1);
+        }
+    }
+    if (character.character.getGlobalBounds().intersects(trash2.getGlobalBounds()))
+    {
+        displayPrompt = true;
+        if (Keyboard::isKeyPressed(Keyboard::A))
+        {
+            trashbag.push(trash2);
+        }
+    }
+    if (character.character.getGlobalBounds().intersects(trash3.getGlobalBounds()))
+    {
+        displayPrompt = true;
+        if (Keyboard::isKeyPressed(Keyboard::A))
+        {
+            trashbag.push(trash3);
+        }
+    }
+    if (character.character.getGlobalBounds().intersects(trash4.getGlobalBounds()))
+    {
+        displayPrompt = true;
+        if (character.character.getGlobalBounds().intersects(trash4.getGlobalBounds()))
+        {
+            if (Keyboard::isKeyPressed(Keyboard::A))
+            {
+                trashbag.push(trash4);
+            }
+        }
+    }
+    if (character.character.getGlobalBounds().intersects(trash5.getGlobalBounds()))
+    {
+        displayPrompt = true;
+        if (character.character.getGlobalBounds().intersects(trash5.getGlobalBounds()))
+        {
+            if (Keyboard::isKeyPressed(Keyboard::A))
+            {
+                trashbag.push(trash5);
+            }
+        }
+    }
+    
 }
