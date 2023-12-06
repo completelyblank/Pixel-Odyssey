@@ -6,7 +6,7 @@
 #define EXECUTABLE_DIRECTORY "./"
 #endif
 
-House::House(StateManager& sm, View& view, int num, float x, float y) : stateManager(sm), talk(false), pressed(false), wasPressed(false), numCoins(num), view(view), hasTransitioned(false), startMove(false), move(seconds(5.f)) {
+House::House(StateManager& sm, View& view, int num, float x, float y) : stateManager(sm), talk(false), pressed(false), wasPressed(false), numCoins(num), view(view), hasTransitioned(false), startMove(false), move(seconds(2.5f)) {
     background.setTexture("Assets/Characters/houseInside.png");
     lisa.setTexture("Assets/Characters/lisa.png");
     lisa.setPosition(1870.f, 1040.f);
