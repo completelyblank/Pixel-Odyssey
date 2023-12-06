@@ -6,7 +6,7 @@
 #define EXECUTABLE_DIRECTORY "./"
 #endif
 
-House2::House2(StateManager& sm, View& view, int num, float x, float y) : stateManager(sm), numCoins(num), view(view), hasTransitioned(false), startMove(false), move(seconds(4.8f)) {
+House2::House2(StateManager& sm, View& view, int num, float x, float y) : stateManager(sm), numCoins(num), view(view), hasTransitioned(false), startMove(false), move(seconds(2.5f)) {
     background.setTexture("Assets/Characters/house2Inside.png");
     character.setTexture( "Assets/Characters/charup1.png");
     character.setPosition(x, y);
@@ -33,7 +33,7 @@ void House2::handleInput(RenderWindow& window, View& view, Clock& track) {
         open.play();
         fade(window, view, track);
         hasTransitioned = true;
-        stateManager.changeState(std::make_unique<City>(stateManager, view, numCoins, 840.f, 500.f));
+        stateManager.changeState(std::make_unique<City>(stateManager, view, numCoins, 1700.f, 500.f));
     }
 }
 
