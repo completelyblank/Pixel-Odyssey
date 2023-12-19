@@ -10,23 +10,23 @@ Pixel Odyssey is an expansive 2D open-world game that harmoniously blends the ca
 
 **Gameplay:**
 
-In this meticulously crafted game, players step into a visually enchanting pixel art world, where boundless exploration, character interactions, secrets to unveil, quests to undertake, and formidable challenges to conquer await. This open-world design endows players with the freedom to chart their own course, discovering the enigmatic depths of the game's universe at their own pace.
+In this meticulously crafted game, players step into a visually enchanting pixel art world, where boundless exploration, character interactions, secrets to unveil await. This open-world design endows players with the freedom to chart their own course, discovering the enigmatic depths of the game's universe at their own pace.
 
 **Key Features:**
 
-1. **Visually Stunning Pixel Art World:** "Open World Adventure" presents players with a visually enchanting pixel art realm. Explore diverse landscapes, including lush forests, bustling cities, eerie dungeons, and treacherous mountains, all meticulously designed to instill a sense of awe and immersion.
+1. **Visually Stunning Pixel Art World:** "Open World Adventure" presents players with a visually enchanting pixel art realm. Explore diverse landscapes, including lush forests, bustling cities, peaceful park, and the serene beach all meticulously designed to instill a sense of awe and immersion.
 
-2. **Dynamic Day-Night Cycle:** A realistic day-night cycle dynamically influences gameplay. Traverse the world during the day to relish its beauty, but be cautious of more formidable adversaries that emerge under the cover of night.
+2. **Dynamic Day-Night Cycle:** A realistic day-night cycle dynamically influences gameplay. Traverse the world during the day to relish its beauty, but be cautious of more formidable adversaries that emerge under the cover of night. (to be added)
 
-3. **Compelling Quests and Narrative:** Dive into an epic narrative, complete with enthralling characters and a captivating storyline.
+3. **Compelling Quests and Narrative:** Dive into an epic narrative, complete with enthralling characters and a captivating storyline. (to be added)
 
-4. **Character Customization:** Personalize your character with an extensive array of clothing, and accessories.
+4. **Character Customization:** Personalize your character with an extensive array of clothing, and accessories. (to be added)
 
-5. **Interactive NPCs:** Encounter a diverse ensemble of non-player characters, each harboring their own tales and quests. Your interactions with them can lead to unexpected consequences and bountiful rewards.
+5. **Interactive NPCs:** Encounter a diverse ensemble of non-player characters, each harboring their own tales and quests. Your interactions with them can lead to unexpected consequences and bountiful rewards. (to be added)
 
 6. **Mini-Games and Pastimes:** Take respite from the main quest by partaking in an array of mini-games and activities, such as fishing and card games, diversifying your gaming experience.
 
-7. **Dynamic Weather Patterns:** Experience changing weather conditions that influence gameplay. Rain might reveal hidden passages, while snow could impede your movement.
+7. **Dynamic Weather Patterns:** Experience changing weather conditions that influence gameplay. Rain might reveal hidden passages, while snow could impede your movement. (to be added)
 
 8. **Soundscapes and Musical Score:** Immerse yourself further in the game's atmosphere with a captivating soundtrack and responsive sound effects that amplify the in-game experience.
 
