@@ -1,3 +1,7 @@
+![Intro1](https://github.com/completelyblank/Pixel-Odyssey/assets/105001837/0bb65c6a-0588-4e08-bac1-d1b7fafbdf58)
+
+
+
 # Pixel-Odyssey
 Uses OOP, DS, C++ as the native language, and SFML as the graphics library.
 **Title:** Open World Adventure: A Pixel Art Odyssey
